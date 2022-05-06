@@ -1,0 +1,52 @@
+.futuredInfo {
+     display: flex;
+}
+
+.futuredInfoItem {
+     flex: 1;
+     padding: 50px;
+     margin: 0 14px;
+     padding: 20px;
+     border-radius: 6px;
+     box-shadow: 12px 12px 46px -16px rgba(0, 0, 0, 0.2);
+     -webkit-box-shadow: 12px 12px 46px -16px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 12px 12px 46px -16px rgba(0, 0, 0, 0.2);
+}
+
+.futuredInfoTitle {
+     font-size: 20px;
+}
+
+.headMoney {
+     font-size: 30px;
+     font-weight: 600;
+}
+
+.futureInfoMoneyConyainer {
+     display: flex;
+     align-items: center;
+     margin: 10px 0;
+}
+
+.lessMoney {
+     margin-left: 20px;
+     display: flex;
+     align-items: center;
+}
+
+.infoArrow {
+     font-size: 20px !important;
+     margin-left: 6px;
+}
+
+.positive {
+     color: green;
+}
+
+.negative {
+     color: red;
+}
+
+.futureMonthTitle {
+     color: #acabab;
+}

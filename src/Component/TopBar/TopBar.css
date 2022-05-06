@@ -1,0 +1,60 @@
+* {
+     box-sizing: border-box;
+}
+
+.topHeader {
+     width: 100%;
+     height: 50px;
+     background: #fff;
+     padding: 10px 20px;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+}
+
+.topHeaderWrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.topLogo {
+     font-size: 30px;
+     font-weight: 700;
+     color: #171717;
+}
+
+.rightHeader {
+     display: flex;
+     align-items: center;
+}
+
+.rightIconContainer {
+     position: relative;
+     margin-right: 10px;
+}
+
+.notificatioBadge {
+     position: absolute;
+     width: 15px;
+     height: 15px;
+     top: -8px;
+     left: 10px;
+     background: red;
+     color: #fff;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.MuIconDevelop {
+     color: #a7a5a5;
+}
+
+.avatar {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     cursor: pointer;
+}
